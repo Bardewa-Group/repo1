@@ -1,118 +1,74 @@
-/* General styles */
-
+/* General Styles */
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #fff;
-  }
-  
-  a {
-    color: #000;
-    text-decoration: none;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  /* Header */
-  
-  header {
-    background-color: #f0f0f0;
-    padding: 20px;
-  }
-  
-  .logo {
-    float: left;
-  }
-  
-  .logo img {
-    width: 200px;
-    height: auto;
-  }
-  
-  nav {
-    float: right;
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  
-  nav a {
-    color: #000;
-    font-weight: bold;
-  }
-  
-  /* Main content */
-  
-  main {
-    padding: 20px;
-  }
-  
-  .hero {
-    background-image: url('bakery-background.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    text-align: center;
-    color: #fff;
-  }
-  
-  .hero h1 {
-    font-size: 50px;
-    margin-top: 100px;
-  }
-  
-  .hero p {
-    font-size: 20px;
-    line-height: 1.5;
-  }
-  
-  .products {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .product {
-    width: 250px;
-    margin: 10px;
-    text-align: center;
-  }
-  
-  .product img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .product h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .product p {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-  
-  /* Footer */
-  
-  footer {
-    background-color: #f0f0f0;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  footer p {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-  
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header Styles */
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: inline-block;
+  padding: 20px;
+  float: left;
+}
+
+nav {
+  float: right;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px;
+}
+
+.banner {
+  text-align: center;
+  background-image: url('banner.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.banner h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.banner a
